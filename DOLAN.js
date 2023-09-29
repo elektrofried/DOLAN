@@ -185,9 +185,6 @@ bot.on('speak', function (data) {
             bot.speak('Fine. /whatever');
          }
    }
-   else if (text.match(/nigger/i)) {
-         bot.boot(data.userid, "http://www.youtube.com/watch?v=YhkNLHictW8");
-   }
    else if (text.match(/disco/i)) {
             if(text.match(/start/i)) {
                allowDiscoMode = true;
