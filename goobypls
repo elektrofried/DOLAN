@@ -1,13 +1,13 @@
 var Bot    = require('ttapi');
-var AUTH   = 'auth+live+60338bc9242a56f0994fbac4367c9f733882d4a7';
-var USERID = '4fd588b8aaa5cd1b3700017b';
-var ROOMID = '60447c1147b5e3001f34ce27';
+var AUTH   = 'MuZoKZPzFgVJZxwAhbkrvjHJ';
+var USERID = '6885bb897f8c5d001eecad9d';
+var ROOMID = '604064503f4bfc001be4c57b';
 var repl = require('repl');
 var currentRoom = ROOMID;
 var bot = new Bot(AUTH, USERID, ROOMID);
 
 repl.start('> ').context.bot = bot;
-var steph = '4e9000e74fe7d04235046f2f';
+var steph = '60417650c2dbd9001be75675';
 var currentAvatar = 14;
 var jbear = 14;
 var allowAuto = false;
